@@ -1,0 +1,29 @@
+# Dependencias
+node_modules/
+jspm_packages/
+
+# Variables de entorno (CRÍTICO)
+.env
+.env.test
+.env.production
+*.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+*.txt
+
+# Sistema y Editores
+.DS_Store
+.vscode/
+.idea/
+
+# Compilados
+dist/
+build/
+
+# Personal
+READMEpro.md
