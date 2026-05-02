@@ -1,4 +1,5 @@
-const { leerUltimosCorreos } = require("./services/mailService");
+require("dotenv").config({ path: __dirname + "/../.env" });
+const { leerUltimosCorreos } = require("./services/graphMailService");
 
 console.log("Iniciando escaneo de correos...");
 
